@@ -98,7 +98,7 @@ class SignUpActivity : AppCompatActivity() {
 
         //
         loginText.setOnClickListener {
-            finish()
+            super.onBackPressedDispatcher
         }
 
     } // onCreate end.....
